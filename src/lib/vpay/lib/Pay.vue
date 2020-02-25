@@ -176,9 +176,7 @@ export default {
     // 点击密码操作
     onKeyboard(key) {
       // 截图前六位密码
-      console.log(111,this.password)
       this.password = (this.password + key).slice(0, this.digit);
-      console.log(222,this.password)
     },
 
     // 密码回删
